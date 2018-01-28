@@ -1,28 +1,27 @@
 {
-  "name": Stacks and Queues
+  "name": "stacks-and-queues",
   "version": "1.0.0",
-  "description": Stack and Queue classes
+  "description": "Stack, Queue, and Node implementation",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "jest --verbose",
-    "lint": "eslint ."
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevegcarpenter/whiteboard-challenges.git"
+    "url": "git+https://github.com/stevegcarpenter/10-stacks-queues.git"
   },
   "author": "Steve Carpenter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stevegcarpenter/whiteboard-challenges/issues"
+    "url": "https://github.com/stevegcarpenter/10-stacks-queues/issues"
   },
-  "homepage": "https://github.com/stevegcarpenter/whiteboard-challenges#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^4.16.0",
-    "jest": "^22.1.4"
-  }
+  "homepage": "https://github.com/stevegcarpenter/10-stacks-queues#readme"
 }
