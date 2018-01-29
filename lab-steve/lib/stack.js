@@ -34,7 +34,7 @@ module.exports = class {
     this.top = node.next;
     node.next = null;
     this.size--;
-    return node.value;
+    return node.val;
   }
 
   peek() {
