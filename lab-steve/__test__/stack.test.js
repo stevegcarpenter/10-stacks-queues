@@ -38,7 +38,7 @@ describe('Stack Module', () => {
       expect(this.stack.top.val).toEqual(1);
     });
 
-    it('throw an error when maxSize is met', () => {
+    it('throw an error when max size is met', () => {
       expect(() => {
         [...Array(1025)].map((e, i) => this.stack.push(~~(Math.random() * i)));
       }).toThrow('Error: Stack is at max size');
@@ -66,7 +66,7 @@ describe('Stack Module', () => {
     it('should return back the correct popped value', () => {
       [1, 2, 3].map((e) => this.stack.push(e));
       expect(this.stack.pop()).toBe(3);
-    })
+    });
   });
 
   describe('#peek', () => {
