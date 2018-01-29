@@ -1,0 +1,29 @@
+{
+  "name": "stacks-and-queues",
+  "version": "1.0.0",
+  "description": "Stack, Queue, and Node implementation",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevegcarpenter/10-stacks-queues.git"
+  },
+  "author": "Steve Carpenter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevegcarpenter/10-stacks-queues/issues"
+  },
+  "homepage": "https://github.com/stevegcarpenter/10-stacks-queues#readme"
+}
